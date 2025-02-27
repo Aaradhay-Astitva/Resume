@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar .profile img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.sidebar .contact, .sidebar .skills {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sidebar .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .skills ul li {
+    padding: 5px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.experience .job, .education {
+    margin-bottom: 20px;
+}
+
+.school-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-item{
+    flex: 1;
+    padding: 10px;
+}
+
+.job h3 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.job ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.references {
+    margin-top: 20px;
+    font-style: italic;
+}
